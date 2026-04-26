@@ -10,6 +10,8 @@ To find username I used X-Forwarded-for: from 1 to 100 because website detecting
 
 and username=""&password=very long password
 very long password we use not to  guess it, but to force the server to "slow down" precisely at the stage of verifying the correct login. 
+
+
 This is a classic example of side-channel exploitation.
 So I found username=afiliados with Response Completed 3000+ and after that I found password like username, but just brute-forcing and using also X-Forwarded-For: from 1 to 100
 <img width="1757" height="964" alt="image" src="https://github.com/user-attachments/assets/4d61e869-0e0b-4ab9-9f04-ef2edc7a06de" />
