@@ -1,7 +1,13 @@
 This lab more exciting
+
+
 For that lab i use also  Candidate usernames and Candidate passwords 
+
+
 But there I wanted to use response times
 To find username I used X-Forwarded-for: from 1 to 100 because website detecting my brute-force and blocking me
+
+
 and username=""&password=very long password
 very long password we use not to  guess it, but to force the server to "slow down" precisely at the stage of verifying the correct login. 
 This is a classic example of side-channel exploitation.
